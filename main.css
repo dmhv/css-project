@@ -4,4 +4,6 @@ section {
 h1 {
   text-align: center;
   color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 30px;
 }
