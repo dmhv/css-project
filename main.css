@@ -1,9 +1,20 @@
-section {
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#product-overview {
   background: rgb(91, 9, 197);
 }
-h1 {
+
+.section-title {
+  color: #2ddf5c;
+  font-family: inherit;
+}
+
+/* Combinator: meaning, any h1 under #product-overview */
+#product-overview h1 {
   text-align: center;
   color: white;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font-size: 30px;
 }
