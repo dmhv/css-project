@@ -28,11 +28,64 @@ body {
 }
 
 .main-header {
-  background:  #2ddf5c;
+  background: #2ddf5c;
   width: 100%;
   padding: 8px 16px;
 }
 
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__brand {
+  font-weight: bold;
+  color: #0e4f1f;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 75px);
+  vertical-align: middle;
+}
+
+.main_nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .main-nav__item {
   display: inline-block;
+  margin-left: 10px;
+}
+
+.main-nav__item a {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 2px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: white;
+  border-bottom: white 4px solid;
+}
+
+.main-nav__item--cta a {
+  color: white;
+  background: #ff1b68;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  color: #ff1b68;
+  background: white;
+  border: none;
 }
