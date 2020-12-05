@@ -15,6 +15,7 @@ main {
   border: 4px solid #0e4f1f;
   border-left: none;
   margin: 1em 0;
+  position: relative;
 }
 
 .package a {
@@ -29,7 +30,7 @@ main {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
 }
 
-.package h1 {
+.package__title {
   margin-top: 2em;
   color: black;
 }
@@ -72,4 +73,17 @@ main {
 
 .float-fix {
   clear: both; /* clear flots on both sides, uglyyyy */
+}
+
+.package__badge {
+  padding: 8px;
+  margin: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  background: #ff1b68;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  color: white;
 }
