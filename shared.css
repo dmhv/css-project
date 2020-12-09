@@ -27,6 +27,12 @@ body {
   color: #0e4f1f;
   text-decoration: none;
   font-size: 22px;
+  display: inline-block;
+  height: 22px;
+}
+
+.main-header__brand > img {
+  height: 100%;
 }
 
 .main-nav {
@@ -62,14 +68,14 @@ body {
 
 .main-nav__item--cta a {
   color: white;
-  background: #ff1b68;
+  background: #ff5454;
   padding: 8px 16px;
   border-radius: 8px;
 }
 
 .main-nav__item--cta a:hover,
 .main-nav__item--cta a:active {
-  color: #ff1b68;
+  color: #ff5454;
   background: white;
   border: none;
 }
