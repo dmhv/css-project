@@ -1,5 +1,7 @@
 #product-overview {
-  background: url("img/freedom.jpg");
+  background: linear-gradient(to top, rgba(80, 68, 18, 0.4) 10%, transparent), url("img/freedom.jpg");
+  /* background: linear-gradient(to right, red, blue); */
+  /* background: radial-gradient(circle at top right, yellow, black); */
   background-size: cover;
   background-position: center;
   margin-top: 42px;
