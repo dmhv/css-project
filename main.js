@@ -1,6 +1,7 @@
 const modal = document.querySelector(".modal");
 const selectPlanBtns = document.querySelectorAll(".plan button");
 const modalNoBtn = document.querySelector(".modal__action--negative");
+// backdrop defined in shared.js
 
 selectPlanBtns.forEach((element) => {
   element.addEventListener("click", () => {
