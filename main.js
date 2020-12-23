@@ -4,14 +4,14 @@ const modalNoBtn = document.querySelector(".modal__action--negative");
 
 selectPlanBtns.forEach((element) => {
   element.addEventListener("click", () => {
-    modal.style.display = "block";
-    backdrop.style.display = "block";
+    modal.classList.add("open")
+    backdrop.classList.add("open")
   });
 });
 
 const closeModal = () => {
-  backdrop.style.display = "none";
-  modal.style.display = "none";
+  modal.classList.remove("open")
+  backdrop.classList.remove("open")
 };
 
 backdrop.addEventListener("click", closeModal);
