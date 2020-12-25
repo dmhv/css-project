@@ -12,9 +12,32 @@
 
 #product-overview h1 {
   position: absolute;
+  font-size: 1.6rem;
+  color: white;
+  font-family: "Fjalla One", sans-serif;
   left: 3%;
   bottom: 0;
   margin-bottom: 1rem;
+}
+
+@media (min-width: 40rem) {
+  #product-overview {
+    height: 40vh;
+  }
+
+  #product-overview h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 60rem) {
+  #product-overview {
+    height: 60vh;
+  }
+
+  #product-overview h1 {
+    font-size: 5rem;
+  }
 }
 
 .plan__list {
@@ -130,13 +153,6 @@
   background: url("img/cloud_technology.jpg");
   background-size: auto 100%;
   background-position: 30%;
-}
-
-/* Combinator: meaning, any h1 under #product-overview */
-#product-overview h1 {
-  color: white;
-  font-family: "Fjalla One", sans-serif;
-  font-size: 2rem;
 }
 
 .modal {
