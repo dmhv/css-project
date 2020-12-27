@@ -1,7 +1,6 @@
 main {
-  padding-top: 2rem;
-  margin: 0 auto;
   max-width: 1500px;
+  margin-top: 4.5rem;
 }
 
 .background {
@@ -9,6 +8,8 @@ main {
   filter: grayscale(40%);
   width: 100vw;
   height: 100vh;
+  top: 2.75rem;
+  left: 0;
   position: fixed;
   z-index: -1;
 }
@@ -34,7 +35,7 @@ main {
 }
 
 .package__title {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   color: black;
 }
 
