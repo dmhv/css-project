@@ -1,5 +1,7 @@
 main {
   padding-top: 2rem;
+  margin: 0 auto;
+  max-width: 1500px;
 }
 
 .background {
@@ -87,4 +89,14 @@ main {
   top: 0;
   display: inline-block;
   color: white;
+}
+
+@media (min-width: 1500px) {
+  .package {
+    border-left: 4px solid #0e4f1f;
+  }
+
+  .package.free {
+    border-right: 4px solid #0e4f1f;
+  }
 }
