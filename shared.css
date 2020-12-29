@@ -166,18 +166,19 @@ button:focus {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .main-footer li {
-  display: block;
-  margin: 1rem 0;
+  margin: 1rem;
 }
 
 @media (min-width: 40rem) {
-  .main-footer li {
-    display: inline-block;
-    margin: 0 1rem;
+  .main-footer ul {
+    flex-direction: row;
   }
 
   .toggle-button {
@@ -211,13 +212,15 @@ button:focus {
   width: 90%;
   height: 100%;
   list-style: none;
-  margin: 10% auto;
+  margin: 5% auto;
   padding: 0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .mobile-nav__item {
-  margin: 1rem 0;
+  margin: 0.5rem;
 }
 
 .mobile-nav__item a {
@@ -225,5 +228,5 @@ button:focus {
 }
 
 .open {
-  display: block !important;
+  display: flex !important;
 }
