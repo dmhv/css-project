@@ -217,6 +217,7 @@
 
 .modal__action {
   border: 1px solid #0e4f1f;
+  border-radius: 0.5rem;
   background: #0e4f1f;
   text-decoration: none;
   color: white;
@@ -240,4 +241,8 @@
 .modal__action--negative:active {
   background: #ff5454;
   border-color: #ff5454;
+}
+
+.modal_open {
+  display: block;
 }
