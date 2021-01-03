@@ -3,15 +3,18 @@
 }
 
 .testimonial__image-container {
-  width: 100%;
+  width: 80%;
   max-width: 580px;
   display: block;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  transform: skewX(10deg);
+  overflow: hidden;
 }
 
 .testimonial__image {
   width: 100%;
   vertical-align: top; /* whitespace removal h4x */
+  transform: skewX(-10deg) scale(1.2);
 }
 
 .testimonial__info {
