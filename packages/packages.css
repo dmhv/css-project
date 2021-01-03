@@ -82,7 +82,7 @@ main {
 
 .package__badge {
   padding: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   border-radius: 8px;
   background: #ff5454;
   position: absolute;
@@ -92,7 +92,7 @@ main {
   color: white;
   width: 15rem;
   text-align: center;
-  transform: rotateZ(35deg) translateX(3.5rem) translateY(-1rem);
+  transform: rotateZ(45deg) translateX(4.2rem) translateY(-2.5rem);
 }
 
 @media (min-width: 1500px) {
