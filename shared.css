@@ -26,6 +26,8 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 200ms linear;
 }
 
 .main-header {
@@ -203,7 +205,7 @@ button:focus {
 }
 
 .mobile-nav {
-  display: none;
+  display: flex;
   position: fixed;
   z-index: 101;
   top: 0;
@@ -211,6 +213,8 @@ button:focus {
   background: white;
   width: 80%;
   height: 100vh;
+  transform: translateX(-100%);
+  transition: transform 200ms ease-out;
 }
 
 .mobile-nav__items {
@@ -233,5 +237,6 @@ button:focus {
 }
 
 .open {
-  display: flex !important;
+  opacity: 1;
+  transform: translateX(0);
 }

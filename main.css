@@ -195,7 +195,9 @@
 
 .modal {
   position: fixed;
-  display: none;
+  opacity: 0;
+  transform: translateY(-20rem);
+  transition: opacity 300ms ease-out, transform 500ms ease-out;
   z-index: 200;
   top: 20%;
   width: 100%;
@@ -252,4 +254,6 @@
 
 .modal_open {
   display: block;
+  opacity: 1;
+  transform: translateY(0);
 }
