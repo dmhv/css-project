@@ -20,6 +20,7 @@ main {
   border-left: none;
   margin: 1rem 0;
   position: relative;
+  overflow: hidden;
 }
 
 .package a {
@@ -81,7 +82,6 @@ main {
 
 .package__badge {
   padding: 0.5rem;
-  margin: 1rem;
   font-size: 1rem;
   border-radius: 8px;
   background: #ff5454;
@@ -90,6 +90,9 @@ main {
   top: 0;
   display: inline-block;
   color: white;
+  width: 15rem;
+  text-align: center;
+  transform: rotateZ(35deg) translateX(3.5rem) translateY(-1rem);
 }
 
 @media (min-width: 1500px) {
