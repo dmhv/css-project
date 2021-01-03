@@ -17,6 +17,10 @@
   transform: skewX(-10deg) scale(1.2);
 }
 
+.testimonial__image:hover {
+  animation: zoom-customer 200ms forwards;
+}
+
 .testimonial__info {
   text-align: right;
   padding: 0.9rem;
@@ -73,5 +77,14 @@
 
   .testimonial__info {
     width: 30%;
+  }
+}
+
+@keyframes zoom-customer {
+  from {
+    transform: skewX(-10deg) scale(1.2);
+  }
+  to {
+    transform: skewX(-10deg) scale(1.3)
   }
 }
