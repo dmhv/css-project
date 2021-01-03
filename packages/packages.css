@@ -32,7 +32,8 @@ main {
 .package:hover,
 .package:active {
   border-color: #ff5454 !important;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  animation: move-package-up 200ms forwards;
 }
 
 .package__title {
@@ -102,5 +103,14 @@ main {
 
   .package.free {
     border-right: 4px solid #0e4f1f;
+  }
+}
+
+@keyframes move-package-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px);
   }
 }
